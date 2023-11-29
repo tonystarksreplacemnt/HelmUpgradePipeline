@@ -1,6 +1,6 @@
 # HelmUpgradePipeline
 HelmUpgradePipeline
-
+```
 name: Helm Upgrade Loki
 
 on:
@@ -35,3 +35,4 @@ jobs:
           -f path/to/your/loki/values.yaml  # Adjust to the path of your values file
           --version <desired_version>  # Replace with the desired version
           --set key=value  # Specify any additional values as needed
+```
